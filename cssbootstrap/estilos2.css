@@ -3,22 +3,8 @@
     margin:0;
     box-sizing: border-box;
 }
-/*ESTILOS POR FUERA DE BOOTSTRAP*/
-#lalala{
-    background-color:rgb(92, 28, 22) ;
-}
-#pie{
-    display: flex;
-    padding: 2%;
-    align-items: center;
-    justify-content: center; 
-}
-#grilla{
-    border-style: dashed;
-    border-color: black;
-}
 /*ESTILO INDEX*/
-/*.container {
+.container {
     height: 150vh;
     display: grid;
     background-color: rgb(92, 28, 22);
@@ -67,7 +53,10 @@
         flex-direction: column;
         justify-content: space-around;
     }
-            .visual{
+    .principal h1{
+         text-align: center;
+    }
+    .visual{
                 height: 100%;
                 display: flex;
                 justify-content: space-around;
@@ -90,7 +79,7 @@
                 text-decoration: none;
             }
     /* PAGINA NOSOTROS*/
-    /*.sectionnosotros{
+    .sectionnosotros{
         display: flex;
         flex-direction: row;
         background-image: url("../IMAGENES/foto2.jpg");
@@ -110,7 +99,7 @@
         grid-template-rows: 10% 80% auto;
     }
         /* PAGINA PRODUCTOS*/ 
-    /*.containerProductos {
+    .containerProductos {
             height: 100vh;
             display: grid;
             background-color: rgb(92, 28, 22);
@@ -155,7 +144,7 @@
         grid-area: "parafritar";
     }
     /* PAGINA RECETAS*/
-    /*.receta{
+    .receta{
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -190,7 +179,7 @@
         height:20vh;
     }
     /* PAGINA CONTACTO*/
-    /*.containerContacto {
+    .containerContacto {
         height: 100vh;
         display: grid;
         background-color: rgb(92, 28, 22);
