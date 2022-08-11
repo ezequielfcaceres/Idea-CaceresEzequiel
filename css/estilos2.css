@@ -7,12 +7,6 @@
 #lalala{
     background-color:rgb(92, 28, 22) ;
 }
-#pie{
-    display: flex;
-    padding: 2%;
-    align-items: center;
-    justify-content: center; 
-}
 #grilla{
     border-style: dashed;
     border-color: black;
@@ -190,7 +184,7 @@
         height:20vh;
     }
     /* PAGINA CONTACTO*/
-    /*.containerContacto {
+    /*C.containerContacto {
         height: 100vh;
         display: grid;
         background-color: rgb(92, 28, 22);
