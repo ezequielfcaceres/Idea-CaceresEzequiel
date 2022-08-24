@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 *{
     padding: 0;
     margin:0;
@@ -5,8 +7,47 @@
 }
 /*ESTILOS POR FUERA DE BOOTSTRAP*/
 
-$bgcolor: rgb(92, 28, 22);
-
 #lalala{
     background-color:$bgcolor ;
 }
+
+/*PAGINA RECETAS*/
+
+@mixin recetasvarias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal{
+    grid-area: main;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    .principal__recetas{
+        @extend .principal;
+        height: 100%;
+        justify-content: space-between;
+        
+    }
+        .principal__recetas--receta1{
+            @include recetasvarias();
+        }
+        .principal__recetas--receta2{
+            @include recetasvarias();
+        }
+        .principal__recetas--receta3{
+            @include recetasvarias();
+        }
+        .principal__recetas--receta4{
+            @include recetasvarias();
+        }
+            .recetafoto{
+                height:20vh;
+            }
+
+         
+
